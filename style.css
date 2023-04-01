@@ -91,3 +91,8 @@ button:hover {
         width: 50%;
     }
 }
+
+div #words p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
