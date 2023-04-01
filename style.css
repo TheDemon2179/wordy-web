@@ -5,13 +5,16 @@ body {
 h1 {
     text-align: center;
     color: #666666;
+    font-size: 60px;
     margin-top: 50px;
+    margin-bottom: 1.2em;
 }
 p {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #666666;
     margin-top: 30px;
+    margin-bottom: 3em;
 }
 input[type="text"] {
     display: block;
@@ -27,15 +30,20 @@ button {
     display: block;
     margin: 30px auto;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 5px;
     border: none;
     outline: none;
     background-color: #4CAF50;
     color: #ffffff;
     cursor: pointer;
+
+    transition: all 0.2s;
 }
 
+button:hover {
+    background-color: #5dbc60;
+}
 .hidden {
     display:none
 }
@@ -51,4 +59,35 @@ button {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+        margin-bottom: 1.2em;
+    }
+    p {
+        font-size: 20px;
+        margin-bottom: 3em;
+    }
+    button {
+      font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 120px;
+        margin-bottom: 1.2em;
+    }
+    p {
+        font-size: 40px;
+        margin-bottom: 3em;
+    }
+    button {
+      font-size: 40px;
+    }
+    input[type="text"] {
+        width: 50%;
+    }
 }
