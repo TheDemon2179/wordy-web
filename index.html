@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordy</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><a href="index.html" style="text-decoration: none; color: #000;">Wordy</a></h1>
+    <p>Ваша цель - напечатать эти слова как можно быстрее и без ошибок.</p>
+
+
+	<div id="start" class="visible">
+        <button onclick="startGame()" id="start_btn">Начать</button>
+    </div>
+
+    <div id="game" class="hidden">
+        <div id="words"></div>
+
+        <input type="text" id="user_input">
+        <button onclick="check()" id="check_btn">Проверить</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="logic.js"></script>
+
+    <footer class="footer">© The Demon 2179</footer>
+</body>
+</html>
