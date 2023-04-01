@@ -7,6 +7,8 @@ Yes, this is just a web version of my (in fact, only my idea, and the implementa
 
 You just need to follow the link and voila! 
 
+(https://thedemon2179.github.io/wordy-web/)
+
 Preview:
 ![image](https://user-images.githubusercontent.com/55982815/229292588-c68a3c4a-b648-49e7-9550-f7b2c2d970df.png)
 
